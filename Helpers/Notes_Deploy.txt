@@ -1,0 +1,11 @@
+# venv yoksa kur
+sudo apt install python3-venv
+
+# proje klasöründe sanal ortam oluştur
+python3 -m venv .venv
+# etkinleştir
+source .venv/bin/activate
+
+# flake8’i bu ortama kur
+pip install flake8
+flake8 --version
