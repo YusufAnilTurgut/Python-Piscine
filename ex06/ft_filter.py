@@ -11,6 +11,7 @@ def is_even(num): return num % 2 == 0
 
 
 def main():
+    """Test the ft_filter function with a sample list."""
     my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     print(list(ft_filter(is_even, my_list)))
 
