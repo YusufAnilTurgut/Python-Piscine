@@ -1,0 +1,75 @@
+Ex 00 
+
+Lists 
+In Python, a list is a built-in data structure that can hold an ordered collection of items. Unlike arrays in some languages, Python lists are very flexible:
+
+Can contain duplicate items
+Mutable: items can be modified, replaced, or removed
+Ordered: elements maintain the order in which they were added
+Index-based: items are accessed using their position (starting from 0)
+Can store mixed data types (integers, strings, booleans, even other lists)
+
+
+Tuples
+
+1. Tanım
+
+Tuple, sıralı (ordered) ama değiştirilemez (immutable) bir koleksiyondur.
+
+Bir kere oluşturulduktan sonra elemanları değiştirilemez veya silinemez (sadece tüm tuple’ı silebilirsin).
+
+List gibi index ile erişilir.
+
+
+1. Tanım
+
+Set, sırasız (unordered) ve tekrarsız (unique) elemanlardan oluşan bir koleksiyondur.
+
+Aynı eleman birden fazla kez eklenirse yalnızca bir tanesi saklanır.
+
+Süslü parantez {} ile tanımlanır.
+
+
+
+Python’da Set
+1. Tanım
+
+Set, sırasız (unordered) ve tekrarsız (unique) elemanlardan oluşan bir koleksiyondur.
+
+Aynı eleman birden fazla kez eklenirse yalnızca bir tanesi saklanır.
+
+Süslü parantez {} ile tanımlanır.
+
+
+
+
+1. Tanım
+
+dict, anahtar–değer (key–value) eşleştirmesi yapan bir veri yapısıdır.
+
+Süslü parantez {} ile tanımlanır.
+
+Her key (anahtar) benzersiz olmalıdır.
+
+Value (değer) aynı olabilir, tekrar edebilir.
+
+Örnek:
+
+2. Key–Value Ekleme ve Güncelleme
+
+Yeni bir key eklenebilir.
+
+Var olan bir key güncellenebilir.
+
+person = {"name": "Alice", "age": 25}
+person["city"] = "Paris"       # yeni key eklendi
+person["age"] = 26             # değer güncellendi
+print(person)   # {'name': 'Alice', 'age': 26, 'city': 'Paris'}
+
+3. Eleman Silme
+
+pop(key) → belirtilen key’i siler.
+
+del dict[key] → belirtilen key’i siler.
+
+clear() → tüm dict’i boşaltır.
