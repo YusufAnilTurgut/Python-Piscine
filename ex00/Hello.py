@@ -11,12 +11,12 @@ ft_list[1] = "World!"
 
 #Tuple
 
-ft_tuple = ("Hello", "Türkiye!")
+ft_tuple = ("Hello", "Turkey!")
 
 #Set
 
-ft_set.remove("tutu!")
-ft_set.add("Istanbul!")
+ft_set = {"Hello", "Istanbul!"}
+
 
 
 #Dict

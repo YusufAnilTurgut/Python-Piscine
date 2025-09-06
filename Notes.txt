@@ -73,3 +73,19 @@ pop(key) → belirtilen key’i siler.
 del dict[key] → belirtilen key’i siler.
 
 clear() → tüm dict’i boşaltır.
+
+
+
+Ex01
+
+{my_time:.2e}
+
+Burada my_time değişkeni float (epoch time).
+
+.2e → scientific notation (bilimsel gösterim) formatı.
+
+Anlamı:
+
+.2 → 2 basamaklı ondalık kısım
+
+e → sayıyı 10’un kuvveti cinsinden yaz
